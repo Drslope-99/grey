@@ -1,0 +1,46 @@
+.nav__open-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3rem;
+  border: 1px solid #888;
+  background-color: transparent;
+  z-index: 100;
+  overflow: hidden;
+  transition: 0.3s transform;
+  cursor: pointer;
+}
+
+.nav__open-btn:hover {
+  transform: scale(0.95);
+}
+
+.nav__open-btn span {
+  position: absolute;
+  width: 90%;
+  height: 0.27rem;
+  border-radius: 0.3rem;
+  background-color: #777;
+  transition: 0.3s transform;
+}
+
+.nav__open-btn span:first-child {
+  transform: translateY(-0.8rem);
+}
+
+.nav__open-btn span:last-child {
+  transform: translateY(0.8rem);
+}
+
+.active.nav__open-btn span {
+  transform: translateX(120%);
+}
+.active.nav__open-btn span:first-child {
+  transform: translateY(0) rotate(-45deg);
+}
+
+.active.nav__open-btn span:last-child {
+  transform: translateY(0) rotate(45deg);
+}

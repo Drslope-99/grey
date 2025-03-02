@@ -1,0 +1,19 @@
+/* .section__title {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.section__header {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.section__description {
+  font-size: 3.25rem;
+  font-weight: 300;
+} */
+
+.about {
+  padding: 15rem 3rem;
+}
