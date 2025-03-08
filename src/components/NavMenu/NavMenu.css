@@ -4,15 +4,22 @@
 }
 
 .nav__list-item {
-  margin: 0 2rem;
+  margin: 0 1.5rem;
 }
 
-.nav__link {
+.nav__link,
+.nav__link:active {
   font-size: 1.6rem;
   text-decoration: none;
   color: inherit;
   font-weight: 400;
   text-transform: capitalize;
+  transition: 0.3s all;
+}
+
+.nav__link:hover {
+  color: var(--color-blue);
+  font-weight: 500;
 }
 
 @media screen and (max-width: 40.3125em) {
@@ -34,5 +41,9 @@
 
   .nav__list.active {
     transform: translateX(0);
+  }
+
+  .nav__link {
+    font-size: 2rem;
   }
 }

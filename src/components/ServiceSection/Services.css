@@ -15,7 +15,7 @@
 } */
 
 .service {
-  padding: 15rem 3rem;
+  padding: 10rem 3rem;
 }
 
 .service__content {
@@ -31,7 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e6e6ff;
+  background-color: var(--color-light-blue);
   border-radius: 50%;
 }
 
@@ -42,10 +42,86 @@
 .service__header {
   font-size: 2.4rem;
   margin-block: 2rem;
+  color: var(--color-dark);
 }
 
 .service__description {
   font-size: 1.6rem;
+}
+
+.service__img {
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.service__app-dev {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto minmax(40rem, 50rem);
+  margin-top: 5rem;
+}
+
+.service__app-img > img {
+  object-fit: contain;
+}
+
+/* the styles for the app development process goes here */
+.dev {
+  margin-top: 2rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 3rem;
+}
+
+.dev li {
+  margin-block: 2rem;
+}
+
+.dev__process {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 1rem;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-row: 1 /2;
+  grid-column: 1/2;
+  padding-inline: 0.5rem;
+  border-right: 0.2rem solid var(--color-light-blue);
+}
+
+.step__text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.step__num {
+  color: var(--color-blue);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.step__header {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.step__description {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 31.25em) {
+  .dev {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 48.75em) {

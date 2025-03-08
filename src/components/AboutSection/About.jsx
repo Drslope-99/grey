@@ -8,6 +8,10 @@ const About = () => {
           Shaping the future with smart technology and innovative solutions.
         </h3>
       </div>
+      <div className="about__content">
+        <figure className="about__image"></figure>
+        <div className="about__details">details</div>
+      </div>
     </section>
   );
 };
