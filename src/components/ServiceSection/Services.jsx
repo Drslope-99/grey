@@ -1,6 +1,6 @@
 import "./Services.css";
 import { FaCode } from "react-icons/fa6";
-import AppImage from "../../assets/deliveryui.jpg";
+import AppImage from "../../assets/deliveryui.png";
 import devImage from "../../assets/bghero.jpg";
 const Services = () => {
   return (

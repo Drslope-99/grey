@@ -60,6 +60,13 @@
   margin-top: 5rem;
 }
 
+.service__app-img {
+  background-image: url("../../assets/blob.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .service__app-img > img {
   object-fit: contain;
 }
