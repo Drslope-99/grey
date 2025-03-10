@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import TestimonialContent from "./TestimonialContent/TestimonialContent";
 import reviews from "./data.json";
 import "./Testimonial.css";
@@ -13,6 +13,12 @@ const Slider = ({ items }) => {
   function nextSlide() {
     setSlideIndex((prev) => (prev >= items.length - 1 ? 0 : prev + 1));
   }
+
+  useEffect(() => {
+    const interval = setInterval(() => nextSlide(), 5000);
+
+    return () => clearInterval(interval);
+  });
 
   return (
     <div className="slider">
