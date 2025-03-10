@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "comments": "Greystones Engineering Company made our dream of homeownership a reality. We couldn't be happier with our new home ",
+    "author": "Stella Ogar",
+    "location": "Lagos, Nigeria"
+  },
+
+  {
+    "id": 2,
+    "comments": "The quality of construction and attention to details are really impresive, we feel like we are living in a luxry home without the luxry pricetag",
+    "author": "Mr Akinbode Adeleye",
+    "location": "Lagos, Nigeria"
+  },
+  {
+    "id": 3,
+    "comments": "Greystones Engineering Company made our dream of homeownership a reality. We couldn't be happier with our new home ",
+    "author": "Samuel Odu",
+    "location": "Lagos, Nigeria"
+  },
+  {
+    "id": 4,
+    "comments": "Greystones Engineering Company made our dream of homeownership a reality. We couldn't be happier with our new home ",
+    "author": "Kayode Adedeji",
+    "location": "Lagos, Nigeria"
+  },
+
+  {
+    "id": 5,
+    "comments": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga repellat placeat voluptates, cum temporibus explicabo iure laboriosam accusantium reiciendis blanditiis labore ut vero, officiis minima esse voluptas vitae laudantium obcaecati ",
+    "author": "lawrence Obi",
+    "location": "Abuja, Nigeria"
+  }
+]

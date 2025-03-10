@@ -1,0 +1,42 @@
+.testimonial__content {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 2rem;
+  position: relative;
+  transition: translate 400ms ease-in-out;
+}
+
+.testimonial__content::before {
+  content: "\201C";
+  position: absolute;
+  line-height: 1;
+
+  font-size: 15rem;
+  opacity: 0.2;
+  font-family: inherit;
+  color: var(--color-blue);
+  z-index: -1;
+}
+
+.testimonial__text {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  color: var(--color-gray);
+  padding: 2rem;
+}
+
+.testimonial__author {
+  padding-left: 2rem;
+}
+
+.testimonial__name {
+  font-size: 1.4rem;
+}
+
+.testimonial__location {
+  font-size: 1.5rem;
+}

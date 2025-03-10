@@ -17,8 +17,12 @@ const HeroSection = () => {
           </p>
         </div>
         <div className="hero__cta">
-          <button className="hero__btn">See our work</button>
-          <button className="hero__btn">Get a Quote</button>
+          <a href="#footer" className="hero__btn">
+            See our works
+          </a>
+          <a href="#footer" className="hero__btn">
+            Contact us
+          </a>
         </div>
       </div>
       <div className="hero__section hero__section--2">

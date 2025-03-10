@@ -5,7 +5,7 @@ import devImage from "../../assets/bghero.jpg";
 const Services = () => {
   return (
     <>
-      <section className="service section">
+      <section className="service section" id="services">
         <div className="section__title">
           <h2 className="section__header">what we do</h2>
           <h3 className="section__description">
@@ -44,7 +44,7 @@ const Services = () => {
             </p>
             <ul className="dev">
               <li>
-                <article class="dev__process">
+                <article className="dev__process">
                   <p className="step">
                     <span className="step__text">step</span>
                     <span className="step__num">01</span>
@@ -58,7 +58,7 @@ const Services = () => {
               </li>
 
               <li>
-                <article class="dev__process">
+                <article className="dev__process">
                   <p className="step">
                     <span className="step__text">step</span>
                     <span className="step__num">02</span>
@@ -72,7 +72,7 @@ const Services = () => {
               </li>
 
               <li>
-                <article class="dev__process">
+                <article className="dev__process">
                   <p className="step">
                     <span className="step__text">step</span>
                     <span className="step__num">03</span>
@@ -86,7 +86,7 @@ const Services = () => {
               </li>
 
               <li>
-                <article class="dev__process">
+                <article className="dev__process">
                   <p className="step">
                     <span className="step__text">step</span>
                     <span className="step__num">04</span>
@@ -100,7 +100,7 @@ const Services = () => {
               </li>
 
               <li>
-                <article class="dev__process">
+                <article className="dev__process">
                   <p className="step">
                     <span className="step__text">step</span>
                     <span className="step__num">05</span>
@@ -114,7 +114,7 @@ const Services = () => {
               </li>
 
               <li>
-                <article class="dev__process">
+                <article className="dev__process">
                   <p className="step">
                     <span className="step__text">step</span>
                     <span className="step__num">06</span>

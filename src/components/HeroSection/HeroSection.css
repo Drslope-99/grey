@@ -47,7 +47,9 @@
   gap: 1.5rem;
 }
 
-.hero__btn {
+.hero__btn:link,
+.hero__btn:visited {
+  text-decoration: none;
   display: inline-flex;
   padding: 1.2rem 2rem;
   outline-color: transparent;
