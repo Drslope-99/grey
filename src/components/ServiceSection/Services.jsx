@@ -1,5 +1,9 @@
 import "./Services.css";
 import { FaCode } from "react-icons/fa6";
+import { FaHeartbeat } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+import { IoSchool } from "react-icons/io5";
+import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import AppImage from "../../assets/deliveryui.png";
 import devImage from "../../assets/bghero.jpg";
 const Services = () => {
@@ -20,9 +24,9 @@ const Services = () => {
             <div className="service__icon">
               <FaCode className="code__icon" />
             </div>
-            <h5 className="service__header">
+            <h3 className="service__header">
               Smart & seamless app development
-            </h5>
+            </h3>
             <p className="service__description">
               In today's digital age, mobile apps have become an essential tool
               for businesses, organizations and individulas to reach their
@@ -133,7 +137,58 @@ const Services = () => {
           </figure>
         </div>
       </section>
-      <section className="app section"></section>
+      {/* here is the section for the industires we serve */}
+      <section className="section sector">
+        <div className="section__title">
+          <h2 className="section__header">Industres We Serve</h2>
+          <h3 className="section__description">
+            Our app development services cater to a wide range of industries
+          </h3>
+        </div>
+
+        <div className="sector__sectors grid grid-1-4">
+          <article className="sector__sector">
+            <div className="sector__icon">
+              <FaHeartbeat className="icon" />
+            </div>
+            <h3>healthcare</h3>
+            <p className="sector__description">
+              We develop medical apps for patient,telemedicine platforms for
+              remote care, and fitness trackers for real-time health monitoring
+            </p>
+          </article>
+          <article className="sector__sector">
+            <div className="sector__icon">
+              <FaShoppingCart className="icon" />
+            </div>
+            <h3>E-Commerce</h3>
+            <p className="sector__description">
+              We build online shopping apps, retail platforms, and digital
+              marketplaces to help businesses grow and sell seamlessly online.
+            </p>
+          </article>
+          <article className="sector__sector">
+            <div className="sector__icon">
+              <IoSchool className="icon" />
+            </div>
+            <h3>Education</h3>
+            <p className="sector__description">
+              We develop learning management systems, educational games, and
+              student apps to enhance learning and engagement.
+            </p>
+          </article>
+          <article className="sector__sector">
+            <div className="sector__icon">
+              <FaMoneyBillTrendUp className="icon" />
+            </div>
+            <h3>Finance</h3>
+            <p className="sector__description">
+              We develop banking solutions,payment gateways and financial
+              management apps for secure and seamless transactions.
+            </p>
+          </article>
+        </div>
+      </section>
     </>
   );
 };

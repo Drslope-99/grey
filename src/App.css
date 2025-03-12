@@ -73,6 +73,15 @@ img {
   color: var(--color-dark);
 }
 
+.grid {
+  display: grid;
+}
+
+.grid-1-4 {
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
 @media screen and (max-width: 48.75em) {
   html {
     font-size: 52%;

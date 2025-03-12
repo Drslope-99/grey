@@ -75,15 +75,15 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="tel:+23418934585">
+              <a href="tel:+2348129990003">
                 <IoCall />
-                +234-1-8934585
+                +234-8129990003
               </a>
             </li>
             <li>
-              <a href="mailto:info@greystonesengineering.com">
+              <a href="mailto:info@greystones.com">
                 <IoIosMail />
-                info@greystonesengineering.com
+                info@greystones.ng
               </a>
             </li>
           </ul>
