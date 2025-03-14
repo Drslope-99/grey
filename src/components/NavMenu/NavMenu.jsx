@@ -25,8 +25,8 @@ const NavMenu = ({ isOpen, clicked }) => {
         </a>
       </li>
       <li className="nav__list-item">
-        <a href="#" className="nav__link" onClick={clicked}>
-          clients
+        <a href="#testimonial" className="nav__link" onClick={clicked}>
+          testimonial
         </a>
       </li>
       <li className="nav__list-item">

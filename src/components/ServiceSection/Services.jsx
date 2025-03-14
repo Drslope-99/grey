@@ -10,6 +10,8 @@ import { AiFillAndroid } from "react-icons/ai";
 import { FaReact } from "react-icons/fa6";
 import { FaFlutter } from "react-icons/fa6";
 import devImage from "../../assets/bghero.jpg";
+import construction from "../../assets/construction.webp";
+import livingRoom from "../../assets/livingroom.jpg";
 const Services = () => {
   return (
     <>
@@ -193,7 +195,7 @@ const Services = () => {
       {/* here is the section for the industires we serve */}
       <section className="section sector">
         <div className="section__title">
-          <h2 className="section__header">Industres We Serve</h2>
+          <h2 className="section__header">Industries We Serve</h2>
           <h3 className="section__description">
             Our app development services cater to a wide range of industries
           </h3>
@@ -239,6 +241,68 @@ const Services = () => {
               We develop banking solutions,payment gateways and financial
               management apps for secure and seamless transactions.
             </p>
+          </article>
+        </div>
+      </section>
+      <section className="section section__housing">
+        <div className="section__title">
+          <h2 className="section__header">Real estate & construction</h2>
+          <h3 className="section__description">
+            Affordable luxry accomodation for the modern family
+          </h3>
+        </div>
+        <div className="housing__content">
+          <figure className="housing__image">
+            <img
+              src={construction}
+              alt="construction project"
+              className="housing__image--1"
+            />
+            <img
+              src={livingRoom}
+              alt="finished project"
+              className="housing__image--2"
+            />
+          </figure>
+          <article className="housing__details">
+            <p className="housing__description">
+              Are you tired of renting and ready to own your dream home? Look no
+              further!, Our properties offer the perfect blend of quality,
+              comfort and affordability for the modern middle-class family.
+            </p>
+            <h3>Why choose our properties?</h3>
+            <ul>
+              <li>
+                <h4>&#10004; Affordable prices</h4>
+                <p>
+                  We understand that buying a home can be a significant
+                  investment. Tha's why we offer competitive pricing without
+                  compromising quality
+                </p>
+              </li>
+              <li>
+                <h4>&#10004; Prime Locations</h4>
+                <p>
+                  Our properties are strategically located in desirable
+                  neighborhoods, close to schools,shopping center and other
+                  available public amenities
+                </p>
+              </li>
+              <li>
+                <h4>&#10004; Modern amenities</h4>
+                <p>
+                  Enjoy the comforts of modern living with our properties top
+                  notch amenities,including pool, gym, playgroun...etc
+                </p>
+              </li>
+              <li>
+                <h4>&#10004; Quality Construction</h4>
+                <p>
+                  We employ the highest-quality construction materials and
+                  method to ensure our properties stand the test of time.
+                </p>
+              </li>
+            </ul>
           </article>
         </div>
       </section>
