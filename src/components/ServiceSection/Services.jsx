@@ -5,6 +5,10 @@ import { FaShoppingCart } from "react-icons/fa";
 import { IoSchool } from "react-icons/io5";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import AppImage from "../../assets/deliveryui.png";
+import { FaAppStoreIos } from "react-icons/fa";
+import { AiFillAndroid } from "react-icons/ai";
+import { FaReact } from "react-icons/fa6";
+import { FaFlutter } from "react-icons/fa6";
 import devImage from "../../assets/bghero.jpg";
 const Services = () => {
   return (
@@ -135,6 +139,55 @@ const Services = () => {
           <figure className="service__img service__app-img">
             <img src={AppImage} alt="App development" />
           </figure>
+        </div>
+        <div className="platform">
+          <h1>Our Expertise</h1>
+          <p>
+            We have extensive experience in developing apps for various
+            platforms includuding
+          </p>
+
+          <div className="platform__items grid grid-1-4">
+            <article className="platform__item">
+              <FaAppStoreIos className="platform__icon" />
+              <p className="platform__description">
+                Harnessing the power of Apple's ecosystem, we craft intuitive
+                and high-performing iOS applications that run smoothly on
+                iPhones and iPads. Our team leverages Swift and Objective-C to
+                create robust and engaging apps that meet user expectations and
+                business goals.
+              </p>
+            </article>
+            <article className="platform__item">
+              <AiFillAndroid className="platform__icon" />
+              <p className="platform__description">
+                With our expertise in Android development, we build versatile
+                applications that run flawlessly across various devices and
+                screen sizes. Utilizing Java and Kotlin, we ensure top-notch
+                performance and functionality that enhance user engagement and
+                retention.
+              </p>
+            </article>
+            <article className="platform__item">
+              <FaReact className="platform__icon" />
+              <p className="platform__description">
+                React is at the core of our web development strategy. By
+                leveraging this powerful JavaScript library, we build dynamic
+                and responsive user interfaces that provide a seamless and
+                interactive experience across different platforms and devices.
+              </p>
+            </article>
+            <article className="platform__item">
+              <FaFlutter className="platform__icon" />
+              <p className="platform__description">
+                Our Flutter expertise allows us to create cross-platform
+                applications with a single codebase. By utilizing this
+                Google-backed framework, we deliver fast, beautiful, and
+                natively compiled apps for mobile, web, and desktop platforms,
+                reducing development time and costs.
+              </p>
+            </article>
+          </div>
         </div>
       </section>
       {/* here is the section for the industires we serve */}
