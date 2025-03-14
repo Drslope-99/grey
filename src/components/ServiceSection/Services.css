@@ -257,6 +257,10 @@
   margin-block: 1rem;
 }
 
+.housing__details ul li h4 {
+  color: var(--color-blue);
+}
+
 @media screen and (max-width: 31.25em) {
   .dev {
     grid-template-columns: 1fr;
