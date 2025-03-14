@@ -196,6 +196,7 @@
 .platform__icon {
   font-size: 6rem;
   margin-block: 3rem;
+  color: var(--color-blue);
 }
 
 .platform .platform__description {
