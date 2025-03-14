@@ -17,8 +17,8 @@ const HeroSection = () => {
           </p>
         </div>
         <div className="hero__cta">
-          <a href="#footer" className="hero__btn">
-            See our works
+          <a href="#about" className="hero__btn">
+            Learn more
           </a>
           <a href="#footer" className="hero__btn">
             Contact us
